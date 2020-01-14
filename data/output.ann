@@ -1,0 +1,139 @@
+T1	Grp_Medicamento 129 135	sangre
+T2	Grp_Medicamento 186 191	orina
+T3	Grp_Enfermedad 224 232	síndrome
+T4	Grp_Enfermedad 284 292	embarazo
+T5	Grp_Enfermedad 345 355	nacimiento
+T6	Grp_Enfermedad 361 378	aborto espontáneo
+T7	Procedimiento 385 398	histerectomía
+T8	Grp_Enfermedad 553 561	síntomas
+T9	Grp_Medicamento 623 631	hormonas
+T10	Grp_Medicamento 645 650	semen
+T11	Grp_Medicamento 683 690	cocaína
+T12	Grp_Enfermedad 990 998	síntomas
+T13	Grp_Enfermedad 1199 1204	enojo
+T14	Grp_Enfermedad 1223 1231	ansiedad
+T15	Grp_Enfermedad 1233 1241	tristeza
+T16	Grp_Enfermedad 1301 1310	infección
+T17	Grp_Enfermedad 1338 1343	gotas
+T18	Grp_Medicamento 1359 1366	pomadas
+T19	Grp_Medicamento 1369 1381	antibióticos
+T20	Procedimiento 1421 1433	psicoterapia
+T21	Grp_Enfermedad 1497 1504	síntoma
+T22	Grp_Enfermedad 1577 1593	bronquitis aguda
+T23	Grp_Enfermedad 1629 1637	síntomas
+T24	Grp_Enfermedad 1857 1862	vivas
+T25	Grp_Enfermedad 1991 1998	pólipos
+T26	Grp_Enfermedad 2151 2171	trastorno metabólico
+T27	Grp_Enfermedad 2182 2190	problema
+T28	Grp_Medicamento 2213 2231	hormonas tiroideas
+T29	Procedimiento 2354 2361	biopsia
+T30	Grp_Enfermedad 2425 2442	fibrosis pulmonar
+T31	Grp_Enfermedad 2448 2454	cáncer
+T32	Grp_Enfermedad 2509 2516	seguros
+T33	Grp_Enfermedad 2528 2536	embarazo
+T34	Procedimiento 2588 2601	procedimiento
+T35	Grp_Enfermedad 2731 2737	fiebre
+T36	Grp_Enfermedad 2739 2752	falta de aire
+T37	Grp_Enfermedad 2838 2853	pérdida de peso
+T38	Grp_Enfermedad 2862 2877	diabetes tipo 1
+T39	Grp_Medicamento 2902 2910	insulina
+T40	Procedimiento 2952 2964	circuncisión
+T41	Grp_Enfermedad 3101 3108	vértigo
+T42	Grp_Enfermedad 3119 3126	vómitos
+T43	Grp_Enfermedad 3179 3193	hemocromatosis
+T44	Grp_Enfermedad 3235 3241	cáncer
+T45	Grp_Enfermedad 3283 3289	cáncer
+T46	Grp_Enfermedad 3308 3316	síntomas
+T47	Grp_Enfermedad 3335 3344	hormigueo
+T48	Grp_Enfermedad 3347 3361	entumecimiento
+T49	Procedimiento 3630 3642	manipulación
+T50	Procedimiento 3654 3668	almacenamiento
+T51	Grp_Medicamento 3672 3681	alimentos
+T52	Grp_Medicamento 3729 3738	alimentos
+T53	Grp_Enfermedad 3745 3754	calambres
+T54	Grp_Enfermedad 3785 3792	reflujo
+T55	Grp_Enfermedad 3873 3881	síntomas
+T56	Grp_Enfermedad 3888 3901	esquizofrenia
+T57	Grp_Medicamento 3959 3974	anticoagulantes
+T58	Grp_Enfermedad 4006 4014	cantidad
+T59	Grp_Medicamento 4018 4028	vitamina K
+T60	Grp_Enfermedad 4095 4101	ántrax
+T61	Grp_Enfermedad 4107 4113	cáncer
+T62	Grp_Medicamento 4219 4226	líquido
+T63	Grp_Enfermedad 4402 4415	inconsciencia
+T64	Procedimiento 4486 4497	ultrasonido
+T65	Grp_Enfermedad 4533 4548	anemia aplásica
+T66	Grp_Enfermedad 4555 4577	trastorno de la sangre
+T67	Grp_Medicamento 4623 4632	alimentos
+T68	Grp_Enfermedad 4764 4772	artritis
+T69	Grp_Enfermedad 4788 4797	problemas
+T70	Grp_Enfermedad 4845 4857	consecuencia
+T71	Grp_Enfermedad 4863 4874	infecciones
+T72	Grp_Enfermedad 4953 4961	problema
+T73	Grp_Enfermedad 4968 4977	boca seca
+T74	Grp_Medicamento 4997 5011	goma de mascar
+T75	Grp_Medicamento 5016 5022	azúcar
+T76	Grp_Medicamento 5035 5043	caramelo
+T77	Grp_Medicamento 5048 5054	azúcar
+T78	Grp_Medicamento 5082 5086	agua
+T79	Grp_Enfermedad 5107 5114	malaria
+T80	Procedimiento 5255 5262	cirugía
+T81	Procedimiento 5265 5272	terapia
+T82	Grp_Enfermedad 5291 5297	cáncer
+T83	Grp_Enfermedad 5403 5416	endometriosis
+T84	Grp_Enfermedad 5548 5568	diabetes gestacional
+T85	Grp_Enfermedad 5692 5697	dolor
+T86	Grp_Enfermedad 5703 5710	picazón
+T87	Grp_Enfermedad 5754 5766	abuso sexual
+T88	Grp_Enfermedad 5927 5936	infección
+T89	Grp_Enfermedad 6072 6080	síntomas
+T90	Grp_Enfermedad 6181 6186	gripe
+T91	Grp_Enfermedad 6283 6288	daños
+T92	Grp_Enfermedad 6339 6344	dolor
+T93	Grp_Medicamento 6378 6390	antibióticos
+T94	Grp_Enfermedad 6396 6405	infección
+T95	Grp_Medicamento 6438 6450	medicamentos
+T96	Grp_Medicamento 6459 6469	colesterol
+T97	Grp_Medicamento 6527 6537	colesterol
+T98	Grp_Medicamento 6572 6582	colesterol
+T99	Grp_Enfermedad 6707 6730	osteogénesis imperfecta
+T100	Grp_Medicamento 6759 6764	genes
+T101	Grp_Medicamento 6960 6968	insulina
+T102	Procedimiento 7061 7075	examen pélvico
+T103	Grp_Medicamento 7174 7181	Comidas
+T104	Procedimiento 7290 7309	terapia psicológica
+T105	Procedimiento 7311 7336	asesoramiento nutricional
+T106	Grp_Medicamento 7371 7381	pesticidas
+T107	Grp_Enfermedad 7421 7433	abuso sexual
+T108	Procedimiento 7505 7512	higiene
+T109	Grp_Enfermedad 7572 7583	infecciones
+T110	Procedimiento 7597 7620	rehabilitación pulmonar
+T111	Grp_Enfermedad 7733 7751	cáncer de estómago
+T112	Grp_Enfermedad 7908 7917	problemas
+T113	Procedimiento 8062 8072	mamografía
+T114	Grp_Enfermedad 8139 8147	síntomas
+T115	Grp_Medicamento 8211 8216	linfa
+T116	Grp_Medicamento 8223 8230	líquido
+T117	Procedimiento 8333 8345	tacto rectal
+T118	Grp_Medicamento 8502 8506	aire
+T119	Grp_Medicamento 8573 8578	genes
+T120	Grp_Medicamento 8595 8604	proteínas
+T121	Grp_Enfermedad 8667 8676	trastorno
+E1	Grp_Enfermedad:T16 Causada_por_system:T18 
+E2	Grp_Enfermedad:T16 Causada_por_system:T19 
+E3	Grp_Enfermedad:T38 Causada_por_system:T39 
+E4	Grp_Enfermedad:T58 Causada_por_system:T57 
+E5	Grp_Enfermedad:T58 Causada_por_system:T59 
+E6	Grp_Enfermedad:T72 Causada_por_system:T74 
+E7	Grp_Enfermedad:T72 Causada_por_system:T75 
+E8	Grp_Enfermedad:T72 Causada_por_system:T76 
+E9	Grp_Enfermedad:T72 Causada_por_system:T77 
+E10	Grp_Enfermedad:T72 Causada_por_system:T78 
+E11	Grp_Enfermedad:T73 Causada_por_system:T74 
+E12	Grp_Enfermedad:T73 Causada_por_system:T75 
+E13	Grp_Enfermedad:T73 Causada_por_system:T76 
+E14	Grp_Enfermedad:T73 Causada_por_system:T77 
+E15	Grp_Enfermedad:T73 Causada_por_system:T78 
+E16	Grp_Enfermedad:T99 Causada_por_system:T100 
+E17	Grp_Enfermedad:T121 Causada_por_system:T119 
+E18	Grp_Enfermedad:T121 Causada_por_system:T120 
