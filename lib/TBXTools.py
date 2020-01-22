@@ -836,6 +836,7 @@ class TBXTools:
                     if verbose:
                         print(self.cadena)
                     self.sortida.write(self.cadena+"\n")
+            self.sortida.close()
                     
     #STATISTICAL TERM EXTRACTION
     
