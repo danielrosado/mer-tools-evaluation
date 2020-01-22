@@ -14,7 +14,6 @@ class ADR2OpenBratRunner(MERToolRunner):
         input_file = self.input_filepath.open(encoding='utf-8')
         output_file = self.output_filepath.open(encoding='utf-8')
         input_file_content = input_file.readlines()
-        keyphrases = []
         newline_diff = 0
         for ln in output_file.readlines():
             concept = ln.split('\t')
@@ -41,8 +40,7 @@ class ADR2OpenBratRunner(MERToolRunner):
                         span.append((span[-1][1] + 1, span[-1][1] + 1 + len(token)))
                 span = map(lambda i: '{0} {1}'.format(i[0], i[1]), span)
                 keyphrase['span'] = ';'.join(span)
-            keyphrases.append(keyphrase)
-        self.key_phrases = keyphrases
+            self.key_phrases.append(keyphrase)
 
     def __search_line(self, input_file_content, prev_line, concept):
         '''Finds the line of the concept in the input file content'''

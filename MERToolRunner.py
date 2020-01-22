@@ -1,7 +1,6 @@
 import shutil
 from abc import ABC, abstractmethod
 from pathlib import Path
-
 from lib.Med_Tagger import Med_Tagger
 
 

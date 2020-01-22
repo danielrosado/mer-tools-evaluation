@@ -1,7 +1,6 @@
 import os
 import time
 from pathlib import Path
-
 from MERToolRunner import MERToolRunner
 
 
@@ -25,7 +24,6 @@ class IXAMedTaggerRunner(MERToolRunner):
 
     def format_output(self):
         '''Formats the original output to eHealth-KD subtask A output'''
-        key_phrases = []
         file_index = 0
         file_line = 1
         output_file = self.output_filepath.open(encoding='utf-8')
@@ -43,10 +41,10 @@ class IXAMedTaggerRunner(MERToolRunner):
                     'B-Calificador',
                     'I-Calificador'
                 ]
-                if key_phrases != [] and key_phrases[-1]['n'] == (i - 1) and tag in multiword_tags:
-                    key_phrases[-1]['n'] = i
-                    key_phrases[-1]['span'].append((file_index, file_index + len(token)))
-                    key_phrases[-1]['term'] += ' ' + token
+                if self.key_phrases != [] and self.key_phrases[-1]['n'] == (i - 1) and tag in multiword_tags:
+                    self.key_phrases[-1]['n'] = i
+                    self.key_phrases[-1]['span'].append((file_index, file_index + len(token)))
+                    self.key_phrases[-1]['term'] += ' ' + token
                 else:
                     key_phrase = {
                         'n': i,
@@ -55,14 +53,13 @@ class IXAMedTaggerRunner(MERToolRunner):
                         'term': token,
                         'tag': tag
                     }
-                    key_phrases.append(key_phrase)
+                    self.key_phrases.append(key_phrase)
             if token == '.':
                 file_line += 1
             file_index += self.__increment_file_index(file_line, token)
-        for key_phrase in key_phrases:
+        for key_phrase in self.key_phrases:
             span = list(map(lambda i: '{0} {1}'.format(i[0], i[1]), key_phrase['span']))
             key_phrase['span'] = ';'.join(span)
-        self.key_phrases = key_phrases
 
     def __format_input(self):
         '''Formats the corpus input to IxaMedTagger input'''

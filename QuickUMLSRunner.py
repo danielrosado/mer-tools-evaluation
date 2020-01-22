@@ -1,6 +1,5 @@
 import time
 from quickumls import QuickUMLS
-
 from MERToolRunner import MERToolRunner
 
 
@@ -24,9 +23,9 @@ class QuickUMLSRunner(MERToolRunner):
 
     def format_output(self):
         '''Formats the original output to eHealth-KD subtask A output'''
-        output = map(lambda list: list[0], self.matches)  # only first term (preferred term)
-        output = sorted(output, key=lambda t: t['start'])
-        self.key_phrases = list(map(__class__.__umls_to_keyphrase, output))
+        terms = map(lambda list: list[0], self.matches)  # only first term (preferred term)
+        ordered_terms = sorted(terms, key=lambda t: t['start'])
+        self.key_phrases = list(map(__class__.__umls_to_keyphrase, ordered_terms))
 
     @staticmethod
     def __umls_to_keyphrase(concept):
@@ -45,6 +44,6 @@ class QuickUMLSRunner(MERToolRunner):
                     span.append((concept['start'], concept['start'] + len(token)))
                 else:
                     span.append((span[-1][1] + 1, span[-1][1] + 1 + len(token)))
-            span = map(lambda i: '{0} {1}'.format(i[0], i[1]), span)
+            span = map(lambda interval: '{0} {1}'.format(interval[0], interval[1]), span)
             keyphrase['span'] = ';'.join(span)
         return keyphrase
