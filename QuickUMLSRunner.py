@@ -11,7 +11,7 @@ class QuickUMLSRunner(MERToolRunner):
         super().__init__(config)
 
     def process_input(self):
-        '''Extracts information from input'''
+        """Extracts information from input"""
         input_file = self._input_filepath.open(encoding='utf8')
         text = input_file.read()
         print('--- QuickUMLS: Processing input ---')
@@ -21,9 +21,9 @@ class QuickUMLSRunner(MERToolRunner):
         print('--- {} seconds ---'.format(end_time))
 
     def format_output(self):
-        '''Formats the original output to eHealth-KD subtask A output'''
-        concepts = map(lambda list: list[0], self.__matches)  # Only first term (preferred term)
-        ordered_concepts = sorted(concepts, key=lambda concept: concept['start']) # Order by start
+        """Formats the original output to eHealth-KD subtask A output"""
+        umls_concepts = map(lambda match_list: match_list[0], self.__matches)  # Only first term (preferred term)
+        ordered_concepts = sorted(umls_concepts, key=lambda umls_concept: umls_concept['start'])  # Order by start
         # Converts an UMLS concept to a eHealth-KD keyphrase
         for concept in ordered_concepts:
             keyphrase = {

@@ -4,8 +4,9 @@ from lib.Med_Tagger import Med_Tagger
 
 class Brat:
 
-    def convert_to_brat(self, input_filename, brat_filename):
-        '''Converts input to BRAT and returns the BRAT tags'''
+    @staticmethod
+    def convert_to_brat(input_filename, brat_filename):
+        """Converts input to BRAT and returns the BRAT tags"""
         input_filepath = Path(input_filename)
         brat_filepath = Path(brat_filename)
         if not brat_filepath.exists():
@@ -14,7 +15,7 @@ class Brat:
             input_text = input_file.read()
             input_parsed = tagger.parse(input_text)
             tagger.write_brat(input_text, input_parsed, brat_filepath)
-            del (tagger)  # To kill the docker image
+            del tagger  # To kill the docker image
         brat_file = brat_filepath.open(encoding='utf-8')
         brat = []
         for line in brat_file.readlines():
