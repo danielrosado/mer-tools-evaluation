@@ -1,4 +1,4 @@
-from IxaMedTaggerRunner import IXAMedTaggerRunner
+from IxaMedTaggerRunner import IxaMedTaggerRunner
 from TBXToolsRunner import TBXToolsRunner
 from TBXToolsMode import TBXToolsMode
 from QuickUMLSRunner import QuickUMLSRunner
@@ -7,9 +7,8 @@ from ADR2OpenBratRunner import ADR2OpenBratRunner
 
 class MERToolRunnerFactory:
 
-    @staticmethod
-    def create_runner(runner_class):
-        if runner_class == IXAMedTaggerRunner:
+    def create_runner(self, runner_class):
+        if runner_class == IxaMedTaggerRunner:
             ixamedtagger_runner_config = {
                 'corpus_filepath': 'corpus/input_corpus.txt',
                 'results_dir': 'results/ixamedtagger/',
@@ -19,13 +18,14 @@ class MERToolRunnerFactory:
                 'output_a_filename': 'output_a_ixamedtagger.txt',
                 'output_b_filename': 'output_b_ixamedtagger.txt',
             }
-            return IXAMedTaggerRunner(ixamedtagger_runner_config)
+            return IxaMedTaggerRunner(ixamedtagger_runner_config)
 
         if runner_class == TBXToolsRunner:
-            mode = TBXToolsMode.LINGUISTIC.value
+            mode = TBXToolsMode.STATISTICAL
+            # mode = TBXToolsMode.LINGUISTIC
             tbxtools_runner_config = {
                 'corpus_filepath': 'corpus/input_corpus.txt',
-                'results_dir': 'results/tbxtools/' + mode + '/',
+                'results_dir': 'results/tbxtools/' + mode.value + '/',
                 'input_filename': 'input_tbxtools.txt',
                 'output_filename': 'candidates.txt',
                 'output_a_filename': 'output_a_tbxtools.txt',

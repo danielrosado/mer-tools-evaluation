@@ -1,5 +1,4 @@
 from pathlib import Path
-
 from MERToolRunner import MERToolRunner
 
 
@@ -20,16 +19,16 @@ class ADR2OpenBratRunner(MERToolRunner):
             if not concept or concept[0].startswith('E'):  # It is not a concept
                 break
             concept = [concept[0], concept[1].split(' ', 1)[1], concept[2].strip('\n')]
-            keyphrase = {
+            key_phrase = {
                 'label': 'Concept',
                 'term': concept[2]
             }
             # ADR2OpenBrat counts each new line in BRAT span, so it must be subtracted
-            newline_diff = self.__search_line(input_file_content, newline_diff, concept[2])
-            multiword_term = keyphrase['term'].split()
+            newline_diff = __class__.__search_line(input_file_content, newline_diff, concept[2])
+            multiword_term = key_phrase['term'].split()
             if not multiword_term:
                 span = concept[1].split()
-                keyphrase['span'] = '{0} {1}'.format(int(span[0]) - newline_diff, int(span[1]) - newline_diff)
+                key_phrase['span'] = '{0} {1}'.format(int(span[0]) - newline_diff, int(span[1]) - newline_diff)
             else:
                 span = []
                 for token in multiword_term:
@@ -39,17 +38,18 @@ class ADR2OpenBratRunner(MERToolRunner):
                     else:
                         span.append((span[-1][1] + 1, span[-1][1] + 1 + len(token)))
                 span = map(lambda i: '{0} {1}'.format(i[0], i[1]), span)
-                keyphrase['span'] = ';'.join(span)
-            self.key_phrases.append(keyphrase)
+                key_phrase['span'] = ';'.join(span)
+            self.key_phrases.append(key_phrase)
 
-    def __search_line(self, input_file_content, prev_line, concept):
+    @staticmethod
+    def __search_line(input_file_content, prev_line, concept):
         '''Finds the line of the concept in the input file content'''
-        for i, ln in enumerate(input_file_content):
+        for i, line in enumerate(input_file_content):
             if i < prev_line:
                 continue
-            ln = ln.replace('.', '').replace(',', '')
+            line = line.replace('.', '').replace(',', '')
             if concept.split():  # multiword concepts
                 concept = concept.split()[0]
-            if concept in ln.split():
+            if concept in line.split():
                 return i
         return -1

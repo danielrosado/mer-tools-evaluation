@@ -6,18 +6,17 @@ from MERToolRunner import MERToolRunner
 class QuickUMLSRunner(MERToolRunner):
 
     def __init__(self, config):
-        self.tool = QuickUMLS('/home/daniel/QuickUMLS')
+        self.quickumls = QuickUMLS('/home/daniel/QuickUMLS')
         self.matches = None
         super().__init__(config)
 
     def process_input(self):
         '''Extracts information from input'''
-        super().process_input()
         input_file = self.input_filepath.open(encoding='utf8')
         text = input_file.read()
-        print('--- Processing input ---')
+        print('--- QuickUMLS: Processing input ---')
         start_time = time.time()
-        self.matches = self.tool.match(text, best_match=True, ignore_syntax=False)
+        self.matches = self.quickumls.match(text, best_match=True, ignore_syntax=False)
         end_time = time.time() - start_time
         print('--- {} seconds ---'.format(end_time))
 
