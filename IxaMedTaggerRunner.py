@@ -60,7 +60,7 @@ class IxaMedTaggerRunner(MERToolRunner):
             elif ' ' in brat[i]['token'] and token in brat[i]['token']:
                 multiword = True
                 term['start'] = str(int(brat[i]['start']) + brat[i]['token'].index(token))
-                term['end'] = str(int(brat[i]['start']) + brat[i]['token'].index(token) + len(token))
+                term['end'] = str(int(term['start']) + len(token))
                 terms.append(term)
             elif any([char in token for char in ['(', ')', ':', '/']]):
                 multiword = True
@@ -73,6 +73,9 @@ class IxaMedTaggerRunner(MERToolRunner):
                 i += 1
                 if token != brat[i]['token']:
                     raise Exception('Tokens does not match: {0} {1}'.format(token, brat[i]['token']))
+                term['start'] = brat[i]['start']
+                term['end'] = brat[i]['end']
+                terms.append(term)
                 multiword = False
                 i += 1
             else:
