@@ -7,7 +7,8 @@ from ADR2OpenBratRunner import ADR2OpenBratRunner
 
 class MERToolRunnerFactory:
 
-    def create_runner(self, runner_class):
+    @staticmethod
+    def create_runner(runner_class):
         if runner_class == IxaMedTaggerRunner:
             ixamedtagger_runner_config = {
                 'corpus_filepath': 'corpus/input_corpus.txt',
@@ -25,7 +26,7 @@ class MERToolRunnerFactory:
             # mode = TBXToolsMode.LINGUISTIC
             tbxtools_runner_config = {
                 'corpus_filepath': 'corpus/input_corpus.txt',
-                'results_dir': 'results/tbxtools/' + mode.value + '/',
+                'results_dir': 'results/tbxtools/' + str(mode.value) + '/',
                 'input_filename': 'input_tbxtools.txt',
                 'output_filename': 'candidates.txt',
                 'output_a_filename': 'output_a_tbxtools.txt',

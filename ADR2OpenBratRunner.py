@@ -9,7 +9,7 @@ class ADR2OpenBratRunner(MERToolRunner):
         super().__init__(config)
 
     def format_output(self):
-        '''Formats the original output to eHealth-KD subtask A output'''
+        """Formats the original output to eHealth-KD subtask A output"""
         input_file = self._input_filepath.open(encoding='utf-8')
         output_file = self.__output_filepath.open(encoding='utf-8')
         input_file_content = input_file.readlines()
@@ -24,7 +24,7 @@ class ADR2OpenBratRunner(MERToolRunner):
                 'term': concept[2]
             }
             # ADR2OpenBrat counts each new line in BRAT span, so it must be subtracted
-            newline_diff = __class__.__search_line(input_file_content, newline_diff, concept[2])
+            newline_diff = self.__search_line(input_file_content, newline_diff, concept[2])
             multiword_term = key_phrase['term'].split()
             if not multiword_term:
                 span = concept[1].split()
@@ -43,7 +43,7 @@ class ADR2OpenBratRunner(MERToolRunner):
 
     @staticmethod
     def __search_line(input_file_content, prev_line, concept):
-        '''Finds the line of the concept in the input file content'''
+        """Finds the line of the concept in the input file content"""
         for i, line in enumerate(input_file_content):
             if i < prev_line:
                 continue

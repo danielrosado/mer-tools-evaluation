@@ -11,11 +11,10 @@ class IxaMedTaggerRunner(MERToolRunner):
         self.__input_formatted_filepath = config['results_dir'] + config['input_formatted_filename']
         self.__output_filepath = Path(config['results_dir'] + config['output_filename'])
         self.__ixamedtagger = 'lib/perceptron.jar'
-        self.__brat = Brat()
         super().__init__(config)
 
     def prepare_input(self):
-        '''Formats the corpus input to the proper tool's input'''
+        """Formats the corpus input to the proper tool's input"""
         super().prepare_input()
         input_file = self._input_filepath.open(encoding='utf-8')
         input_formatted_file = Path(self.__input_formatted_filepath).open('w', encoding='utf8')
@@ -27,7 +26,7 @@ class IxaMedTaggerRunner(MERToolRunner):
                     input_formatted_file.write('{}\n'.format(token))
 
     def process_input(self):
-        '''Extracts information from input'''
+        """Extracts information from input"""
         print('--- IxaMedTagger: processing input ---')
         start_time = time.time()
         os.system('java -jar {0} {1}'.format(self.__ixamedtagger, self.__input_formatted_filepath))
@@ -35,8 +34,8 @@ class IxaMedTaggerRunner(MERToolRunner):
         print('--- {} seconds ---'.format(end_time))
 
     def format_output(self):
-        '''Formats the original output to eHealth-KD subtask A output'''
-        brat = self.__brat.convert_to_brat(self._input_filepath, 'results/brat.txt')
+        """Formats the original output to eHealth-KD subtask A output"""
+        brat = Brat.convert_to_brat(self._input_filepath, 'results/brat.txt')
         output_file = self.__output_filepath.open(encoding='utf-8')
         # Assign BRAT span to each token from output
         terms = []
@@ -65,7 +64,7 @@ class IxaMedTaggerRunner(MERToolRunner):
             elif any([char in token for char in ['(', ')', ':', '/']]):
                 multiword = True
                 term['start'] = brat[i]['start']
-                while (brat[i]['token'] in token):
+                while brat[i]['token'] in token:
                     i += 1
                 term['end'] = brat[i]['end'],
                 terms.append(term)
