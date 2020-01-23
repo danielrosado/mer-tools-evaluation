@@ -13,6 +13,7 @@ class MERToolRunner(ABC):
         self.key_phrases = []
 
     def prepare_input(self):
+        '''Formats the corpus input to the proper tool's input'''
         if not self.input_filepath.parent.exists():
             self.input_filepath.parent.mkdir(parents=True)
         shutil.copyfile(self.corpus_filepath, self.input_filepath)

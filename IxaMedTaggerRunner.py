@@ -38,7 +38,6 @@ class IxaMedTaggerRunner(MERToolRunner):
         '''Formats the original output to eHealth-KD subtask A output'''
         brat = self.brat.convert_to_brat(self.input_filepath, 'results/brat.txt')
         output_file = self.output_filepath.open(encoding='utf-8')
-
         # Assign BRAT span to each token from output
         terms = []
         i = 0
@@ -78,7 +77,6 @@ class IxaMedTaggerRunner(MERToolRunner):
                 i += 1
             else:
                 raise Exception('Tokens does not match: {0} {1}'.format(token, brat[i]['token']))
-
         # Generate key phrases from previous terms
         multiword_tags = [
             'I-Grp_Enfermedad',
@@ -101,7 +99,7 @@ class IxaMedTaggerRunner(MERToolRunner):
                     'term': term['token'],
                 }
                 self.key_phrases.append(key_phrase)
-
+        # Format span
         for key_phrase in self.key_phrases:
-            span = list(map(lambda interval: '{0} {1}'.format(interval[0], interval[1]), key_phrase['span']))
+            span = map(lambda interval: '{0} {1}'.format(interval[0], interval[1]), key_phrase['span'])
             key_phrase['span'] = ';'.join(span)

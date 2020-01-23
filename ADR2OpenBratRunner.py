@@ -37,7 +37,7 @@ class ADR2OpenBratRunner(MERToolRunner):
                         span.append((int(start) - newline_diff, int(start) + len(token) - newline_diff))
                     else:
                         span.append((span[-1][1] + 1, span[-1][1] + 1 + len(token)))
-                span = map(lambda i: '{0} {1}'.format(i[0], i[1]), span)
+                span = map(lambda interval: '{0} {1}'.format(interval[0], interval[1]), span)
                 key_phrase['span'] = ';'.join(span)
             self.key_phrases.append(key_phrase)
 

@@ -41,16 +41,16 @@ class TBXToolsRunner(MERToolRunner):
 
     def format_output(self):
         '''Formats the original output to eHealth-KD subtask A output'''
+        # Search the extracted concepts in BRAT text in order to get the span
         brat = self.brat.convert_to_brat(self.input_filepath, 'results/brat.txt')
         output_file = self.output_filepath.open(encoding='utf-8')
         for ln in output_file.readlines():
-            # search the extracted concepts in BRAT text in order to get the span intervals
             ln = ln.split('\t')
             freq = int(ln[0])
             candidate_tokens = ln[1].split()
-            i = 0
-            j = 0
-            k = 0
+            i = 0 # brat index
+            j = 0 # frequency index
+            k = 0 # candidate tokens index
             key_phrase = {'span': [], 'term': []}
             while i < len(brat) and j < freq:
                 if k == len(candidate_tokens):  # multiword term found
@@ -69,12 +69,9 @@ class TBXToolsRunner(MERToolRunner):
                             key_phrase = {'span': [], 'term': []}
                             k = 0
                 i += 1
-        self.key_phrases.sort(key=lambda k: int(k['span'][0][0]))
-        self.key_phrases = map(__class__.__format_key_phrase, self.key_phrases)
-
-    @staticmethod
-    def __format_key_phrase(key_phrase):
-        span = map(lambda t: '{0} {1}'.format(t[0], t[1]), key_phrase['span'])
-        key_phrase['span'] = ';'.join(span)
-        key_phrase['term'] = ' '.join(key_phrase['term'])
-        return key_phrase
+        self.key_phrases.sort(key=lambda key_phrase: int(key_phrase['span'][0][0])) # Order by start
+        # Format span and term
+        for key_phrase in self.key_phrases:
+            span = map(lambda interval: '{0} {1}'.format(interval[0], interval[1]), key_phrase['span'])
+            key_phrase['span'] = ';'.join(span)
+            key_phrase['term'] = ' '.join(key_phrase['term'])
