@@ -1,0 +1,453 @@
+3	Estados Unidos
+3	pueden ser
+2	enfermedad renal
+2	hacer ejercicio
+2	puede empeorar
+2	más común
+2	tiene diabetes
+2	suelen comenzar
+2	pruebas de imagen
+2	puede causar
+2	abuso sexual
+2	glóbulos blancos
+2	pueden ayudar
+2	puede incluir
+1	recubre los tubos
+1	pruebas es
+1	tomar decisiones
+1	afuera del hígado
+1	reducir su colesterol
+1	piernas al descansar
+1	aviar en personas
+1	riesgos de salud
+1	usan para multiplicarse
+1	consuma la cocaína
+1	utilizar la insulina
+1	madres pueden infectar
+1	también pueden desarrollar
+1	desecho y produciendo
+1	debe hacerse
+1	proveedores de salud
+1	es siempre mejor
+1	hormonas tiroideas controlan
+1	inconsciencia permanente
+1	incluyendo lavarse
+1	ayudar a evitar
+1	proteínas correctas
+1	veces se puede
+1	pequeñas manchas rojas
+1	sistema inmunitario intenta
+1	sangre poco común
+1	personas puede variar
+1	aire pasa
+1	arterias coronarias
+1	más daños emocionales
+1	azúcar y tomar
+1	maltrato al menor
+1	pueden evitar infecciones
+1	padecen al menos
+1	opción de circuncidar
+1	llamado enfermedad intestinal
+1	Unidos la padecen
+1	tratamiento incluye supervisión
+1	mundo pueden llegar
+1	Utilizar niños
+1	membrana que recubre
+1	cantidad de vitamina
+1	artritis también causan
+1	importa cómo
+1	médicos extirpan
+1	brazos o piernas
+1	primeros tres meses
+1	quisiera recibir
+1	tratamientos son seguros
+1	filtran y limpian
+1	constituyen un cáncer
+1	parte posterior
+1	piel y pérdida
+1	salud y familiares
+1	células vivas
+1	renal crónica aún
+1	consume y es
+1	puede masticar goma
+1	principal fuente
+1	osteogénesis imperfecta es
+1	enfermedad renal está
+1	diabéticas no tienen
+1	tratamientos incluyen medicinas
+1	tiene síntomas
+1	genes no producen
+1	recubre el útero
+1	es una forma
+1	Americana de Pediatría
+1	trastorno genético
+1	análisis de sangre
+1	K que consume
+1	diabetes tipo 1
+1	es peligrosa
+1	infección es más
+1	esquizofrenia suelen comenzar
+1	controlan el ritmo
+1	ojos pueden conducir
+1	embarazadas también pueden
+1	aproximadamente a 1
+1	ojos una vez
+1	síntomas al principio
+1	prácticas de higiene
+1	puede conducir
+1	tuviera una enfermedad
+1	leucemia linfocítica crónica
+1	sufren más daños
+1	personas diabéticas
+1	tipos de artritis
+1	hepatitis no presentan
+1	médico de inmediato
+1	riñón se forma
+1	estado de inconsciencia
+1	está prácticamente erradicada
+1	tratamiento depende
+1	tiroides incluyen análisis
+1	túnel que queda
+1	vida indica
+1	anemia aplásica es
+1	vivas y normales
+1	conducir a vértigo
+1	tratamiento habitual es
+1	sexual de menores
+1	bebés que tienen
+1	controlan esos músculos
+1	imperfecta es causada
+1	alivian el dolor
+1	después de haber
+1	puede indicar diabetes
+1	tener un trastorno
+1	pueden ser benignos
+1	terapia de radiación
+1	antes posible
+1	Academia Americana
+1	tipo de tejido
+1	tienden a ser
+1	acceso limitado
+1	sensatas y equilibradas
+1	familiares a tomar
+1	enfermedad mortal
+1	sangre eliminando
+1	hacer ejercicio físico
+1	es importante identificar
+1	conducir a pérdida
+1	volver a trabajar
+1	pueden desarrollar diabetes
+1	incluyen tomografía computarizada
+1	interrumpirá sus períodos
+1	benignos no constituyen
+1	hormigueo o entumecimiento
+1	masculinas y semen
+1	varios genes
+1	goma de mascar
+1	es un trastorno
+1	cáncer raras veces
+1	vez al año
+1	Comidas sensatas
+1	caramelo sin azúcar
+1	sobre sus síntomas
+1	también llamadas neuronas
+1	encuentran dentro
+1	puede sentir
+1	prevenir enfermedades transmitidas
+1	mortal y estuviera
+1	puede producir
+1	entumecimiento puede indicar
+1	produce insulina
+1	indica qué tratamientos
+1	enfermedad llamada hemocromatosis
+1	Medidas adecuadas
+1	medicinas OTC alivian
+1	mejor opción
+1	tiene un problema
+1	pueden ser muy
+1	tener la opción
+1	familias sustitutas
+1	cabello depende
+1	personas se infectan
+1	infecciones por hongos
+1	común en niños
+1	es el tacto
+1	imagen incluyen tomografía
+1	haber vuelto
+1	importante causa
+1	pruebas por imágenes
+1	practicar deportes
+1	estuviera en estado
+1	están dentro
+1	pesticidas pueden ayudar
+1	desarrolla lentamente
+1	benignos o malignos
+1	diagnosticar la fibrosis
+1	personas no tienen
+1	menos una vez
+1	procedimiento puede regresar
+1	azúcar o chupar
+1	afecta al feto
+1	malaria es
+1	síntomas y escuchará
+1	malignos sí
+1	examen pélvico
+1	detección es
+1	es muy común
+1	físico y aprender
+1	testículos producen hormonas
+1	preguntará sobre
+1	tratar estas enfermedades
+1	atención de salud
+1	siguiente y puede
+1	Como medida
+1	ser muy dolorosos
+1	trastorno metabólico
+1	enfermedades llamado enfermedad
+1	viven con familias
+1	diagnosticar el cáncer
+1	es un líquido
+1	tumores pueden ser
+1	tienen ningún síntoma
+1	doctor puede usar
+1	infecciosas que surgen
+1	país muy rápido
+1	puede volver
+1	tejido que recubre
+1	16 y 30
+1	períodos menstruales
+1	ultrasonido y pruebas
+1	pueden enfrentar serios
+1	tipos de derrames
+1	gripe aviar
+1	terapia psicológica
+1	ser hereditarias
+1	renal está muy
+1	produciendo orina
+1	trabajar la semana
+1	extirpan los pólipos
+1	lugar del mundo
+1	hacen correctamente
+1	biopsia y/o pruebas
+1	contra los gérmenes
+1	vulva no tiene
+1	asesoramiento nutricional
+1	ayudar a librarse
+1	mentales pueden incluir
+1	tienen ERGE
+1	emocionales que físicos
+1	niño puede tener
+1	deportes o ejercitarse
+1	diminutos que están
+1	acumulación de líquido
+1	tristeza y desesperación
+1	reducir su dolor
+1	inmunitario intenta combatir
+1	hígado es
+1	envían mensajes
+1	también causan problemas
+1	perder peso
+1	síntomas de enfermedad
+1	enfermedad renal crónica
+1	es con antibióticos
+1	reacciones mentales pueden
+1	virus como
+1	pídale ayuda
+1	es más común
+1	producen hormonas masculinas
+1	derrames cerebrales
+1	crónica aún puede
+1	medida de seguridad
+1	abuso sexual contra
+1	tratamiento puede incluir
+1	músculo del esfínter
+1	prematuros pueden enfrentar
+1	equilibradas serán
+1	fibrosis pulmonar
+1	vuelto a casa
+1	testamento en vida
+1	Es posible
+1	Hay tres formas
+1	forma de maltrato
+1	volver a embarazarse
+1	tubos diminutos
+1	niños en pornografía
+1	aborto espontáneo
+1	debería reducir
+1	transcurso del tiempo
+1	linfa es
+1	transmitidas por alimentos
+1	además de reducir
+1	líquido del estómago
+1	padres deberían tener
+1	riesgo puede causar
+1	tiene un trastorno
+1	tipo de glóbulos
+1	técnicas de respiración
+1	aprender técnicas
+1	pérdida de peso
+1	defienden contra
+1	empeorar las cosas
+1	raras veces afecta
+1	como los ojos
+1	hay demasiados linfocitos
+1	está tomando anticoagulantes
+1	niños viven
+1	falta de aire
+1	Invaden las células
+1	infección y puede
+1	es su principal
+1	cirugía o terapia
+1	células que defienden
+1	tumores benignos
+1	defecto congénito
+1	variar de leve
+1	mensajes que controlan
+1	anteojos protegen
+1	médico le preguntará
+1	puede incluir cirugía
+1	tiene estos síntomas
+1	boca seca
+1	sabor del líquido
+1	identificar y tratar
+1	leve a grave
+1	tienen hepatitis
+1	tratamientos usted quisiera
+1	mascar sin azúcar
+1	causa de muerte
+1	contra los menores
+1	calambres pueden ser
+1	queda justo detrás
+1	esfínter se debilita
+1	páncreas no produce
+1	maltratados sufren más
+1	Es difícil diagnosticar
+1	síntoma hasta
+1	buenas prácticas
+1	nivel de colesterol
+1	útero crece fuera
+1	pruebas de medicina
+1	hay síntomas
+1	multiplicarse y producir
+1	recibir si tuviera
+1	es una importante
+1	grupo de enfermedades
+1	cruzarlas al sentarse
+1	pérdida del cabello
+1	sentarse puede ayudar
+1	puede tomarlas
+1	várices empeoren
+1	sorbos de agua
+1	manos correctamente
+1	pueden prevenir enfermedades
+1	llama enfermedad
+1	sentir el sabor
+1	células nerviosas
+1	protegen la vista
+1	elevar su nivel
+1	2.500 personas
+1	lavarse las manos
+1	productos de desecho
+1	vitamina K
+1	fuente de energía
+1	tipo de mamograma
+1	puede causar problemas
+1	enfermedades lo antes
+1	Pediatría establece
+1	colesterol malo
+1	es el túnel
+1	elevar las piernas
+1	suelen comenzar entre
+1	producen las proteínas
+1	enfrentar serios riesgos
+1	mujeres no descubran
+1	personas sufren
+1	bronquitis aguda
+1	líquido que contiene
+1	contiene glóbulos blancos
+1	Existen dos tipos
+1	aún puede empeorar
+1	náusea y vómitos
+1	causar un defecto
+1	CMT afecta aproximadamente
+1	pornografía también es
+1	salud puede empeorar
+1	pomadas o antibióticos
+1	cáncer de vulva
+1	incluyendo ciertas estatinas
+1	historia clínica
+1	cocción y almacenamiento
+1	sangre y pruebas
+1	adecuadas de seguridad
+1	niños maltratados sufren
+1	presentan síntomas
+1	combatir la infección
+1	enfermedad cardíaca
+1	mujeres embarazadas también
+1	almacenamiento de alimentos
+1	día siguiente
+1	alimentos pueden prevenir
+1	menores es
+1	está muy avanzada
+1	es un tipo
+1	tacto rectal
+1	es abuso sexual
+1	incluir el enojo
+1	eliminando los productos
+1	pulmones para diagnosticar
+1	usar su historia
+1	colesterol bueno
+1	primeras etapas
+1	cáncer de riñón
+1	posibles beneficios
+1	cáncer de estómago
+1	enfermedades infecciosas
+1	infectan con ántrax
+1	bebés prematuros pueden
+1	nariz a través
+1	reflujo es muy
+1	insulina adecuadamente
+1	ejercicio es siempre
+1	casa al día
+1	enfermedades tienden
+1	rehabilitación pulmonar
+1	cavidad nasal es
+1	actividades del cuerpo
+1	producir otros virus
+1	pueden elevar
+1	mamografía de detección
+1	meses del embarazo
+1	deje de practicar
+1	es mucho más
+1	30 años
+1	conoce la causa
+1	producir o utilizar
+1	semana después
+1	común pero grave
+1	medicina nuclear
+1	llamada diabetes gestacional
+1	tienen síntomas
+1	área se infecta
+1	entrenará para hacer
+1	cómo se consuma
+1	hacerse un examen
+1	limpian la sangre
+1	enfermedad intestinal inflamatoria
+1	chupar un caramelo
+1	hacer nada
+1	diagnosticar la bronquitis
+1	escuchará su respiración
+1	histerectomía interrumpirá
+1	tomar pequeños sorbos
+1	serán la mejor
+1	tienen hasta someterse
+1	entre los 16
+1	podrá volver
+1	cuerpo no puede
+1	puede incluir compresas
+1	personas que tienen
+1	ductos biliares afuera
+1	necesita tener cuidado
+1	Como consecuencia
+1	también es abuso
+1	adoptivas o políticas

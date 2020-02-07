@@ -6,12 +6,14 @@ from ADR2OpenBratRunner import ADR2OpenBratRunner
 
 
 class MERToolRunnerFactory:
+    
+    def __init__(self, corpus_filepath):
+        self.corpus_filepath = corpus_filepath
 
-    @staticmethod
-    def create_runner(runner_class):
+    def create_runner(self, runner_class):
         if runner_class == IxaMedTaggerRunner:
             ixamedtagger_runner_config = {
-                'corpus_filepath': 'corpus/input_corpus.txt',
+                'corpus_filepath': self.corpus_filepath,
                 'results_dir': 'results/ixamedtagger/',
                 'input_filename': 'input_ixamedtagger.txt',
                 'input_formatted_filename': 'input_formatted.txt',
@@ -25,7 +27,7 @@ class MERToolRunnerFactory:
             mode = TBXToolsMode.STATISTICAL
             # mode = TBXToolsMode.LINGUISTIC
             tbxtools_runner_config = {
-                'corpus_filepath': 'corpus/input_corpus.txt',
+                'corpus_filepath': self.corpus_filepath,
                 'results_dir': 'results/tbxtools/' + str(mode.value) + '/',
                 'input_filename': 'input_tbxtools.txt',
                 'output_filename': 'candidates.txt',
@@ -37,7 +39,7 @@ class MERToolRunnerFactory:
 
         if runner_class == QuickUMLSRunner:
             quickumls_runner_config = {
-                'corpus_filepath': 'corpus/input_corpus.txt',
+                'corpus_filepath': self.corpus_filepath,
                 'results_dir': 'results/quickumls/',
                 'input_filename': 'input_quickumls.txt',
                 'output_a_filename': 'output_a_quickumls.txt',
@@ -47,7 +49,7 @@ class MERToolRunnerFactory:
 
         if runner_class == ADR2OpenBratRunner:
             adr2openbrat_runner_config = {
-                'corpus_filepath': 'corpus/input_corpus.txt',
+                'corpus_filepath': self.corpus_filepath,
                 'results_dir': 'results/adr2openbrat/',
                 'input_filename': 'input_adr2openbrat.txt',
                 'output_filename': 'data/output.ann',

@@ -1,0 +1,106 @@
+0	4 9;10 20	Concept	bebés prematuros
+1	38 44;45 52	Concept	serios riesgos
+2	45 52;53 55;56 61	Concept	riesgos de salud
+3	150 159;160 162;163 170	Concept	productos de desecho
+4	319 326;327 336	Concept	defecto congénito
+5	358 364;365 375	Concept	aborto espontáneo
+6	412 420;421 432	Concept	períodos menstruales
+7	616 624;625 635	Concept	hormonas masculinas
+8	948 956;957 967	Concept	personas diabéticas
+9	978 986;987 989;990 1000	Concept	síntomas de enfermedad
+10	990 1000;1001 1009	Concept	enfermedad cardíaca
+11	1037 1048;1049 1051;1052 1057	Concept	proveedores de salud
+12	1147 1157;1158 1166	Concept	reacciones mentales
+13	1501 1511;1512 1517	Concept	enfermedad renal
+14	1559 1569;1570 1575	Concept	bronquitis aguda
+15	1829 1836;1837 1842	Concept	células vivas
+16	1924 1930;1931 1933;1934 1943	Concept	medida de seguridad
+17	2032 2040;2041 2051	Concept	arterias coronarias
+18	2128 2137;2138 2148	Concept	trastorno metabólico
+19	2189 2197;2198 2207	Concept	hormonas tiroideas
+20	2285 2293;2294 2301	Concept	historia clínica
+21	2400 2408;2409 2417	Concept	fibrosis pulmonar
+22	2422 2428;2429 2434	Concept	cáncer raras
+23	2429 2434;2435 2440	Concept	raras veces
+24	2603 2606;2607 2616	Concept	día siguiente
+25	2711 2716;2717 2719;2720 2724	Concept	falta de aire
+26	2726 2737;2738 2740;2741 2748	Concept	acumulación de líquido
+27	2774 2782;2783 2790	Concept	pequeñas manchas
+28	2783 2790;2791 2796	Concept	manchas rojas
+29	2810 2817;2818 2820;2821 2825	Concept	pérdida de peso
+30	2833 2841;2842 2846	Concept	diabetes tipo
+31	2896 2904;2905 2915	Concept	posibles beneficios
+32	3167 3174;3175 3183	Concept	tumores benignos
+33	3249 3255;3256 3258;3259 3264	Concept	cáncer de vulva
+34	3425 3430;3431 3433;3434 3446	Concept	grupo de enfermedades
+35	3455 3465;3466 3476;3477 3489	Concept	enfermedad intestinal inflamatoria
+36	3455 3465;3466 3476	Concept	enfermedad intestinal
+37	3615 3629;3630 3632;3633 3642	Concept	almacenamiento de alimentos
+38	3962 3970;3971 3973;3974 3982	Concept	cantidad de vitamina
+39	3974 3982;3983 3984	Concept	vitamina K
+40	4075 4081;4082 4090	Concept	ductos biliares
+41	4199 4204;4205 4214	Concept	parte posterior
+42	4311 4321;4322 4328	Concept	enfermedad mortal
+43	4344 4350;4351 4353;4354 4367	Concept	estado de inconsciencia
+44	4354 4367;4368 4378	Concept	inconsciencia permanente
+45	4384 4391;4392 4394;4395 4401	Concept	pruebas de imagen
+46	4451 4458;4459 4461;4462 4470	Concept	pruebas de medicina
+47	4462 4470;4471 4478	Concept	medicina nuclear
+48	4483 4489;4490 4498	Concept	anemia aplásica
+49	4608 4617;4618 4624	Concept	principal fuente
+50	4618 4624;4625 4627;4628 4635	Concept	fuente de energía
+51	4702 4707;4708 4710;4711 4719	Concept	tipos de artritis
+52	4913 4917;4918 4922	Concept	boca seca
+53	5008 5016;5017 5023	Concept	pequeños sorbos
+54	5017 5023;5024 5026;5027 5031	Concept	sorbos de agua
+55	5066 5076;5077 5082	Concept	importante causa
+56	5077 5082;5083 5085;5086 5092	Concept	causa de muerte
+57	5208 5215;5216 5218;5219 5228	Concept	terapia de radiación
+58	5233 5239;5240 5242;5243 5248	Concept	cáncer de riñón
+59	5289 5294;5295 5304	Concept	tubos diminutos
+60	5362 5366;5367 5369;5370 5376	Concept	tipo de tejido
+61	5488 5496;5497 5508	Concept	diabetes gestacional
+62	5522 5527;5528 5530;5531 5539	Concept	tipos de derrames
+63	5531 5539;5540 5550	Concept	derrames cerebrales
+64	5604 5613;5614 5617	Concept	medicinas OTC
+65	5690 5695;5696 5702	Concept	abuso sexual
+66	5747 5755;5756 5758;5759 5764	Concept	atención de salud
+67	5821 5828;5829 5840	Concept	sistema inmunitario
+68	6051 6059;6060 6062;6063 6069	Concept	análisis de sangre
+69	6072 6079;6080 6082;6083 6089	Concept	pruebas de imagen
+70	6212 6217;6218 6229	Concept	daños emocionales
+71	6277 6288;6289 6297	Concept	tratamiento habitual
+72	6443 6448;6449 6451;6452 6462	Concept	nivel de colesterol
+73	6452 6462;6463 6468	Concept	colesterol bueno
+74	6497 6507;6508 6512	Concept	colesterol malo
+75	6524 6536;6537 6548	Concept	enfermedades infecciosas
+76	6630 6642;6643 6653	Concept	osteogénesis imperfecta
+77	6714 6724;6725 6730	Concept	enfermedad renal
+78	6725 6730;6731 6738	Concept	renal crónica
+79	6980 6986;6987 6994	Concept	examen pélvico
+80	7000 7007;7008 7017	Concept	células nerviosas
+81	7091 7098;7099 7107	Concept	Comidas sensatas
+82	7132 7137;7138 7144	Concept	mejor opción
+83	7206 7213;7214 7225	Concept	terapia psicológica
+84	7227 7240;7241 7252	Concept	asesoramiento nutricional
+85	7335 7340;7341 7347	Concept	abuso sexual
+86	7366 7371;7372 7374;7375 7383	Concept	forma de maltrato
+87	7398 7404;7405 7414	Concept	buenas prácticas
+88	7405 7414;7415 7417;7418 7425	Concept	prácticas de higiene
+89	7509 7523;7524 7532	Concept	rehabilitación pulmonar
+90	7564 7573;7574 7580	Concept	ejercicio físico
+91	7592 7600;7601 7603;7604 7615	Concept	técnicas de respiración
+92	7644 7650;7651 7653;7654 7662	Concept	cáncer de estómago
+93	7670 7678;7679 7685	Concept	primeras etapas
+94	7693 7701;7702 7713;7714 7721	Concept	leucemia linfocítica crónica
+95	7693 7701;7702 7713	Concept	leucemia linfocítica
+96	7753 7757;7758 7760;7761 7769	Concept	tipo de glóbulos
+97	7761 7769;7770 7777	Concept	glóbulos blancos
+98	7969 7979;7980 7982;7983 7992	Concept	mamografía de detección
+99	7999 8003;8004 8006;8007 8016	Concept	tipo de mamograma
+100	8149 8157;8158 8165	Concept	glóbulos blancos
+101	8237 8242;8243 8249	Concept	tacto rectal
+102	8275 8283;8284 8294	Concept	familias sustitutas
+103	8322 8329;8330 8335	Concept	cavidad nasal
+104	8496 8505;8506 8515	Concept	proteínas correctas
+105	8568 8577;8578 8586	Concept	trastorno genético
