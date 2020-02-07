@@ -1,0 +1,103 @@
+2	pruebas de imagen
+2	glóbulos blancos
+2	enfermedad renal
+2	abuso sexual
+1	leucemia linfocítica crónica
+1	pérdida de peso
+1	pequeños sorbos
+1	manchas rojas
+1	trastorno genético
+1	nivel de colesterol
+1	riesgos de salud
+1	enfermedad intestinal inflamatoria
+1	ductos biliares
+1	medida de seguridad
+1	tipo de glóbulos
+1	terapia psicológica
+1	proveedores de salud
+1	cáncer raras
+1	buenas prácticas
+1	colesterol malo
+1	bebés prematuros
+1	sorbos de agua
+1	falta de aire
+1	diabetes tipo
+1	forma de maltrato
+1	tratamiento habitual
+1	posibles beneficios
+1	tubos diminutos
+1	causa de muerte
+1	prácticas de higiene
+1	medicinas OTC
+1	defecto congénito
+1	síntomas de enfermedad
+1	día siguiente
+1	asesoramiento nutricional
+1	trastorno metabólico
+1	cáncer de riñón
+1	colesterol bueno
+1	atención de salud
+1	bronquitis aguda
+1	cáncer de vulva
+1	estado de inconsciencia
+1	parte posterior
+1	osteogénesis imperfecta
+1	Academia Americana
+1	cavidad nasal
+1	sistema inmunitario
+1	células nerviosas
+1	historia clínica
+1	tipo de tejido
+1	familias sustitutas
+1	acumulación de líquido
+1	tipo de mamograma
+1	enfermedad cardíaca
+1	ejercicio físico
+1	terapia de radiación
+1	boca seca
+1	almacenamiento de alimentos
+1	células vivas
+1	inconsciencia permanente
+1	serios riesgos
+1	vitamina K
+1	pruebas de medicina
+1	mejor opción
+1	productos de desecho
+1	análisis de sangre
+1	leucemia linfocítica
+1	medicina nuclear
+1	principal fuente
+1	arterias coronarias
+1	fuente de energía
+1	rehabilitación pulmonar
+1	raras veces
+1	pequeñas manchas
+1	Comidas sensatas
+1	mamografía de detección
+1	aborto espontáneo
+1	grupo de enfermedades
+1	cáncer de estómago
+1	personas diabéticas
+1	tipos de artritis
+1	proteínas correctas
+1	daños emocionales
+1	tipos de derrames
+1	hormonas masculinas
+1	diabetes gestacional
+1	tumores benignos
+1	hormonas tiroideas
+1	derrames cerebrales
+1	técnicas de respiración
+1	primeras etapas
+1	enfermedad mortal
+1	reacciones mentales
+1	enfermedad intestinal
+1	enfermedades infecciosas
+1	períodos menstruales
+1	renal crónica
+1	examen pélvico
+1	cantidad de vitamina
+1	anemia aplásica
+1	fibrosis pulmonar
+1	importante causa
+1	tacto rectal

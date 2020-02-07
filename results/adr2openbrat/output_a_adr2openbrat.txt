@@ -1,0 +1,121 @@
+0	128 134	Concept	sangre
+1	185 190	Concept	orina
+2	222 230	Concept	síndrome
+3	281 289	Concept	embarazo
+4	342 352	Concept	nacimiento
+5	358 364;365 375	Concept	aborto espontáneo
+6	381 394	Concept	histerectomía
+7	547 555	Concept	síntomas
+8	616 624	Concept	hormonas
+9	638 643	Concept	semen
+10	675 682	Concept	cocaína
+11	978 986	Concept	síntomas
+12	1185 1190	Concept	enojo
+13	1209 1217	Concept	ansiedad
+14	1219 1227	Concept	tristeza
+15	1286 1295	Concept	infección
+16	1323 1328	Concept	gotas
+17	1344 1351	Concept	pomadas
+18	1354 1366	Concept	antibióticos
+19	1405 1417	Concept	psicoterapia
+20	1480 1487	Concept	síntoma
+21	1559 1569;1570 1575	Concept	bronquitis aguda
+22	1611 1619	Concept	síntomas
+23	1837 1842	Concept	vivas
+24	1970 1977	Concept	pólipos
+25	2128 2137;2138 2148	Concept	trastorno metabólico
+26	2159 2167	Concept	problema
+27	2189 2197;2198 2207	Concept	hormonas tiroideas
+28	2329 2336	Concept	biopsia
+29	2400 2408;2409 2417	Concept	fibrosis pulmonar
+30	2422 2428	Concept	cáncer
+31	2483 2490	Concept	seguros
+32	2502 2510	Concept	embarazo
+33	2561 2574	Concept	procedimiento
+34	2703 2709	Concept	fiebre
+35	2711 2716;2717 2719;2720 2724	Concept	falta de aire
+36	2810 2817;2818 2820;2821 2825	Concept	pérdida de peso
+37	2833 2841;2842 2846;2847 2848	Concept	diabetes tipo 1
+38	2873 2881	Concept	insulina
+39	2922 2934	Concept	circuncisión
+40	3070 3077	Concept	vértigo
+41	3088 3095	Concept	vómitos
+42	3147 3161	Concept	hemocromatosis
+43	3202 3208	Concept	cáncer
+44	3250 3256	Concept	cáncer
+45	3274 3282	Concept	síntomas
+46	3300 3309	Concept	hormigueo
+47	3312 3326	Concept	entumecimiento
+48	3591 3603	Concept	manipulación
+49	3615 3629	Concept	almacenamiento
+50	3633 3642	Concept	alimentos
+51	3690 3699	Concept	alimentos
+52	3705 3714	Concept	calambres
+53	3744 3751	Concept	reflujo
+54	3830 3838	Concept	síntomas
+55	3845 3858	Concept	esquizofrenia
+56	3915 3930	Concept	anticoagulantes
+57	3962 3970	Concept	cantidad
+58	3974 3982;3983 3984	Concept	vitamina K
+59	4050 4056	Concept	ántrax
+60	4061 4067	Concept	cáncer
+61	4172 4179	Concept	líquido
+62	4354 4367	Concept	inconsciencia
+63	4437 4448	Concept	ultrasonido
+64	4483 4489;4490 4498	Concept	anemia aplásica
+65	4505 4514;4515 4517;4518 4520;4521 4527	Concept	trastorno de la sangre
+66	4572 4581	Concept	alimentos
+67	4711 4719	Concept	artritis
+68	4735 4744	Concept	problemas
+69	4791 4803	Concept	consecuencia
+70	4809 4820	Concept	infecciones
+71	4898 4906	Concept	problema
+72	4913 4917;4918 4922	Concept	boca seca
+73	4942 4946;4947 4949;4950 4956	Concept	goma de mascar
+74	4961 4967	Concept	azúcar
+75	4980 4988	Concept	caramelo
+76	4993 4999	Concept	azúcar
+77	5027 5031	Concept	agua
+78	5051 5058	Concept	malaria
+79	5198 5205	Concept	cirugía
+80	5208 5215	Concept	terapia
+81	5233 5239	Concept	cáncer
+82	5344 5357	Concept	endometriosis
+83	5488 5496;5497 5508	Concept	diabetes gestacional
+84	5629 5634	Concept	dolor
+85	5640 5647	Concept	picazón
+86	5690 5695;5696 5702	Concept	abuso sexual
+87	5861 5870	Concept	infección
+88	6004 6012	Concept	síntomas
+89	6111 6116	Concept	gripe
+90	6212 6217	Concept	daños
+91	6267 6272	Concept	dolor
+92	6305 6317	Concept	antibióticos
+93	6322 6331	Concept	infección
+94	6363 6375	Concept	medicamentos
+95	6384 6394	Concept	colesterol
+96	6452 6462	Concept	colesterol
+97	6497 6507	Concept	colesterol
+98	6630 6642;6643 6653	Concept	osteogénesis imperfecta
+99	6682 6687	Concept	genes
+100	6880 6888	Concept	insulina
+101	6980 6986;6987 6994	Concept	examen pélvico
+102	7091 7098	Concept	Comidas
+103	7206 7213;7214 7225	Concept	terapia psicológica
+104	7227 7240;7241 7252	Concept	asesoramiento nutricional
+105	7286 7296	Concept	pesticidas
+106	7335 7340;7341 7347	Concept	abuso sexual
+107	7418 7425	Concept	higiene
+108	7485 7496	Concept	infecciones
+109	7509 7523;7524 7532	Concept	rehabilitación pulmonar
+110	7644 7650;7651 7653;7654 7662	Concept	cáncer de estómago
+111	7817 7826	Concept	problemas
+112	7969 7979	Concept	mamografía
+113	8046 8054	Concept	síntomas
+114	8116 8121	Concept	linfa
+115	8128 8135	Concept	líquido
+116	8237 8242;8243 8249	Concept	tacto rectal
+117	8404 8408	Concept	aire
+118	8474 8479	Concept	genes
+119	8496 8505	Concept	proteínas
+120	8568 8577	Concept	trastorno

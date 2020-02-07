@@ -1,0 +1,230 @@
+0	56 61	Concept	salud
+1	117 124	Concept	limpian
+2	128 134	Concept	sangre
+3	185 190	Concept	orina
+4	222 230	Concept	síndrome
+5	281 289	Concept	embarazo
+6	319 326	Concept	defecto
+7	342 352	Concept	nacimiento
+8	358 364	Concept	aborto
+9	381 394	Concept	histerectomía
+10	412 420	Concept	períodos
+11	469 480	Concept	tratamiento
+12	489 496	Concept	pérdida
+13	501 508	Concept	cabello
+14	547 555	Concept	síntomas
+15	557 565	Concept	consulte
+16	596 606	Concept	testículos
+17	638 643	Concept	semen
+18	785 793	Concept	diabetes
+19	879 886;887 890;891 899	Concept	músculo del esfínter
+20	978 986	Concept	síntomas
+21	990 1000	Concept	enfermedad
+22	1052 1057	Concept	salud
+23	1073 1078	Concept	tomar
+24	1185 1190	Concept	enojo
+25	1209 1217	Concept	ansiedad
+26	1219 1227	Concept	tristeza
+27	1248 1259	Concept	tratamiento
+28	1286 1295	Concept	infección
+29	1312 1321	Concept	compresas
+30	1344 1351	Concept	pomadas
+31	1354 1366	Concept	antibióticos
+32	1372 1384	Concept	tratamientos
+33	1405 1417	Concept	psicoterapia
+34	1480 1487	Concept	síntoma
+35	1501 1511;1512 1517	Concept	enfermedad renal
+36	1559 1569;1570 1575	Concept	bronquitis aguda
+37	1611 1619	Concept	síntomas
+38	1622 1631	Concept	escuchará
+39	1635 1646	Concept	respiración
+40	1669 1681	Concept	enfermedades
+41	1712 1719;1720 1722;1723 1729	Concept	pérdida de visión
+42	1786 1798	Concept	enfermedades
+43	1808 1815	Concept	posible
+44	1934 1943	Concept	seguridad
+45	1984 1992	Concept	examinan
+46	2014 2024	Concept	enfermedad
+47	2032 2040	Concept	arterias
+48	2128 2137	Concept	trastorno
+49	2159 2167	Concept	problema
+50	2176 2183	Concept	proceso
+51	2303 2310	Concept	pruebas
+52	2329 2336	Concept	biopsia
+53	2341 2348	Concept	pruebas
+54	2355 2362	Concept	función
+55	2370 2378	Concept	pulmones
+56	2400 2408;2409 2417	Concept	fibrosis pulmonar
+57	2422 2428	Concept	cáncer
+58	2466 2478	Concept	tratamientos
+59	2502 2510	Concept	embarazo
+60	2561 2574	Concept	procedimiento
+61	2607 2616	Concept	siguiente
+62	2703 2709	Concept	fiebre
+63	2711 2716;2717 2719;2720 2724	Concept	falta de aire
+64	2741 2748	Concept	líquido
+65	2756 2762	Concept	brazos
+66	2765 2772	Concept	piernas
+67	2783 2790	Concept	manchas
+68	2803 2807	Concept	piel
+69	2810 2817;2818 2820;2821 2825	Concept	pérdida de peso
+70	2833 2841;2842 2846;2847 2848	Concept	diabetes tipo 1
+71	2853 2861	Concept	páncreas
+72	2873 2881	Concept	insulina
+73	2896 2904	Concept	posibles
+74	2922 2934	Concept	circuncisión
+75	3070 3077	Concept	vértigo
+76	3079 3085	Concept	náusea
+77	3088 3095	Concept	vómitos
+78	3128 3138	Concept	enfermedad
+79	3147 3161	Concept	hemocromatosis
+80	3202 3208	Concept	cáncer
+81	3249 3255	Concept	cáncer
+82	3259 3264	Concept	vulva
+83	3274 3282	Concept	síntomas
+84	3300 3309	Concept	hormigueo
+85	3312 3326	Concept	entumecimiento
+86	3341 3349	Concept	diabetes
+87	3403 3408	Concept	salud
+88	3434 3446	Concept	enfermedades
+89	3455 3465	Concept	enfermedad
+90	3466 3476	Concept	intestinal
+91	3508 3517	Concept	ejercicio
+92	3575 3584	Concept	seguridad
+93	3591 3603	Concept	manipulación
+94	3660 3672	Concept	enfermedades
+95	3705 3714	Concept	calambres
+96	3744 3751	Concept	reflujo
+97	3785 3797	Concept	enfermedades
+98	3830 3838	Concept	síntomas
+99	3845 3858	Concept	esquizofrenia
+100	3915 3930	Concept	anticoagulantes
+101	3974 3982	Concept	vitamina
+102	4050 4056	Concept	ántrax
+103	4061 4067;4068 4070;4071 4077;4078 4086	Concept	cáncer de ductos biliares
+104	4102 4108	Concept	hígado
+105	4172 4179	Concept	líquido
+106	4184 4192	Concept	estómago
+107	4205 4214	Concept	posterior
+108	4221 4225	Concept	boca
+109	4230 4240	Concept	testamento
+110	4260 4272	Concept	tratamientos
+111	4311 4321	Concept	enfermedad
+112	4354 4367	Concept	inconsciencia
+113	4384 4391	Concept	pruebas
+114	4395 4401	Concept	imagen
+115	4411 4421;4422 4435	Concept	tomografía computarizada
+116	4437 4448	Concept	ultrasonido
+117	4451 4458	Concept	pruebas
+118	4483 4489	Concept	anemia
+119	4505 4514	Concept	trastorno
+120	4521 4527	Concept	sangre
+121	4544 4549	Concept	grave
+122	4618 4624	Concept	fuente
+123	4628 4635	Concept	energía
+124	4711 4719	Concept	artritis
+125	4735 4744	Concept	problemas
+126	4780 4784	Concept	piel
+127	4791 4803	Concept	consecuencia
+128	4809 4820	Concept	infecciones
+129	4867 4875	Concept	pulmones
+130	4884 4888	Concept	piel
+131	4898 4906	Concept	problema
+132	4913 4917;4918 4922	Concept	boca seca
+133	4933 4941	Concept	masticar
+134	4942 4946	Concept	goma
+135	4961 4967	Concept	azúcar
+136	4970 4976	Concept	chupar
+137	4980 4988	Concept	caramelo
+138	4993 4999	Concept	azúcar
+139	5002 5007	Concept	tomar
+140	5027 5031	Concept	agua
+141	5051 5058	Concept	malaria
+142	5077 5082;5083 5085;5086 5092	Concept	causa de muerte
+143	5172 5183	Concept	tratamiento
+144	5198 5205	Concept	cirugía
+145	5208 5215	Concept	terapia
+146	5233 5239;5240 5242;5243 5248	Concept	cáncer de riñón
+147	5329 5336	Concept	riñones
+148	5344 5357	Concept	endometriosis
+149	5392 5397	Concept	útero
+150	5431 5442	Concept	embarazadas
+151	5470 5478	Concept	diabetes
+152	5488 5496;5497 5508	Concept	diabetes gestacional
+153	5531 5539	Concept	derrames
+154	5629 5634	Concept	dolor
+155	5640 5647	Concept	picazón
+156	5667 5678	Concept	pornografía
+157	5690 5695;5696 5702	Concept	abuso sexual
+158	5733 5741	Concept	limitado
+159	5747 5755	Concept	atención
+160	5759 5764	Concept	salud
+161	5809 5816	Concept	infecta
+162	5829 5840	Concept	inmunitario
+163	5861 5870	Concept	infección
+164	5981 5990	Concept	hepatitis
+165	6004 6012	Concept	síntomas
+166	6018 6026	Concept	exámenes
+167	6051 6059	Concept	análisis
+168	6063 6069	Concept	sangre
+169	6072 6079	Concept	pruebas
+170	6083 6089	Concept	imagen
+171	6094 6104	Concept	enfermedad
+172	6111 6116	Concept	gripe
+173	6158 6163	Concept	grave
+174	6218 6229	Concept	emocionales
+175	6267 6272	Concept	dolor
+176	6277 6288	Concept	tratamiento
+177	6305 6317	Concept	antibióticos
+178	6322 6331	Concept	infección
+179	6363 6375	Concept	medicamentos
+180	6384 6394	Concept	colesterol
+181	6415 6424	Concept	estatinas
+182	6452 6462	Concept	colesterol
+183	6497 6507	Concept	colesterol
+184	6524 6536	Concept	enfermedades
+185	6630 6642;6643 6653	Concept	osteogénesis imperfecta
+186	6714 6724;6725 6730	Concept	enfermedad renal
+187	6777 6785	Concept	anteojos
+188	6828 6836	Concept	diabetes
+189	6880 6888	Concept	insulina
+190	6907 6914	Concept	posible
+191	6980 6986;6987 6994	Concept	examen pélvico
+192	7173 7184	Concept	tratamiento
+193	7193 7204	Concept	supervisión
+194	7206 7213	Concept	terapia
+195	7227 7240	Concept	asesoramiento
+196	7335 7340;7341 7347	Concept	abuso sexual
+197	7418 7425	Concept	higiene
+198	7450 7455	Concept	manos
+199	7485 7496	Concept	infecciones
+200	7509 7523	Concept	rehabilitación
+201	7524 7532	Concept	pulmonar
+202	7564 7573	Concept	ejercicio
+203	7604 7615	Concept	respiración
+204	7620 7627	Concept	difícil
+205	7644 7650;7651 7653;7654 7662	Concept	cáncer de estómago
+206	7693 7701	Concept	leucemia
+207	7738 7748	Concept	linfocitos
+208	7753 7757;7758 7760;7761 7769;7770 7777	Concept	tipo de glóbulos blancos
+209	7817 7826	Concept	problemas
+210	7834 7843	Concept	ejercicio
+211	7869 7876	Concept	piernas
+212	7947 7954	Concept	várices
+213	7969 7979	Concept	mamografía
+214	7983 7992	Concept	detección
+215	8024 8031	Concept	examina
+216	8046 8054	Concept	síntomas
+217	8106 8111	Concept	parto
+218	8116 8121	Concept	linfa
+219	8128 8135	Concept	líquido
+220	8223 8230	Concept	pruebas
+221	8237 8242;8243 8249	Concept	tacto rectal
+222	8308 8317	Concept	políticas
+223	8330 8335	Concept	nasal
+224	8342 8347	Concept	túnel
+225	8377 8382	Concept	nariz
+226	8436 8444	Concept	garganta
+227	8496 8505	Concept	proteínas
+228	8521 8523;8524 8529	Concept	lo hacen
+229	8568 8577	Concept	trastorno
