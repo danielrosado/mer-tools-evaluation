@@ -1,9 +1,9 @@
 import time
 from quickumls import QuickUMLS
-from MERToolRunner import MERToolRunner
+from MERToolProcessor import MERToolProcessor
 
 
-class QuickUMLSRunner(MERToolRunner):
+class QuickUMLSProcessor(MERToolProcessor):
 
     def __init__(self, config):
         self.__quickumls = QuickUMLS('/home/daniel/QuickUMLS')

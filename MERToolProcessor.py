@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from pathlib import Path
 
 
-class MERToolRunner(ABC):
+class MERToolProcessor(ABC):
 
     def __init__(self, config):
         self._corpus_filepath = Path(config['corpus_filepath'])

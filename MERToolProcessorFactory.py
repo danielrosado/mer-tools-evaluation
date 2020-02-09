@@ -1,18 +1,18 @@
-from IxaMedTaggerRunner import IxaMedTaggerRunner
-from TBXToolsRunner import TBXToolsRunner
+from IxaMedTaggerProcessor import IxaMedTaggerProcessor
+from TBXToolsProcessor import TBXToolsProcessor
 from TBXToolsMode import TBXToolsMode
-from QuickUMLSRunner import QuickUMLSRunner
-from ADR2OpenBratRunner import ADR2OpenBratRunner
+from QuickUMLSProcessor import QuickUMLSProcessor
+from ADR2OpenBratProcessor import ADR2OpenBratProcessor
 
 
-class MERToolRunnerFactory:
+class MERToolProcessorFactory:
     
     def __init__(self, corpus_filepath):
         self.corpus_filepath = corpus_filepath
 
-    def create_runner(self, runner_class):
-        if runner_class == IxaMedTaggerRunner:
-            ixamedtagger_runner_config = {
+    def create_processor(self, processor_class):
+        if processor_class == IxaMedTaggerProcessor:
+            config = {
                 'corpus_filepath': self.corpus_filepath,
                 'results_dir': 'results/ixamedtagger/',
                 'input_filename': 'input_ixamedtagger.txt',
@@ -21,12 +21,12 @@ class MERToolRunnerFactory:
                 'output_a_filename': 'output_a_ixamedtagger.txt',
                 'output_b_filename': 'output_b_ixamedtagger.txt',
             }
-            return IxaMedTaggerRunner(ixamedtagger_runner_config)
+            return IxaMedTaggerProcessor(config)
 
-        if runner_class == TBXToolsRunner:
+        if processor_class == TBXToolsProcessor:
             mode = TBXToolsMode.STATISTICAL
             # mode = TBXToolsMode.LINGUISTIC
-            tbxtools_runner_config = {
+            config = {
                 'corpus_filepath': self.corpus_filepath,
                 'results_dir': 'results/tbxtools/' + str(mode.value) + '/',
                 'input_filename': 'input_tbxtools.txt',
@@ -35,20 +35,20 @@ class MERToolRunnerFactory:
                 'output_b_filename': 'output_b_tbxtools.txt',
                 'mode': mode
             }
-            return TBXToolsRunner(tbxtools_runner_config)
+            return TBXToolsProcessor(config)
 
-        if runner_class == QuickUMLSRunner:
-            quickumls_runner_config = {
+        if processor_class == QuickUMLSProcessor:
+            config = {
                 'corpus_filepath': self.corpus_filepath,
                 'results_dir': 'results/quickumls/',
                 'input_filename': 'input_quickumls.txt',
                 'output_a_filename': 'output_a_quickumls.txt',
                 'output_b_filename': 'output_b_quickumls.txt',
             }
-            return QuickUMLSRunner(quickumls_runner_config)
+            return QuickUMLSProcessor(config)
 
-        if runner_class == ADR2OpenBratRunner:
-            adr2openbrat_runner_config = {
+        if processor_class == ADR2OpenBratProcessor:
+            config = {
                 'corpus_filepath': self.corpus_filepath,
                 'results_dir': 'results/adr2openbrat/',
                 'input_filename': 'input_adr2openbrat.txt',
@@ -56,4 +56,6 @@ class MERToolRunnerFactory:
                 'output_a_filename': 'output_a_adr2openbrat.txt',
                 'output_b_filename': 'output_b_adr2openbrat.txt'
             }
-            return ADR2OpenBratRunner(adr2openbrat_runner_config)
+            return ADR2OpenBratProcessor(config)
+
+        raise Exception('The given class is not valid')

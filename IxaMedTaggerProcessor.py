@@ -1,11 +1,11 @@
 import os
 import time
 from pathlib import Path
-from MERToolRunner import MERToolRunner
+from MERToolProcessor import MERToolProcessor
 from Brat import Brat
 
 
-class IxaMedTaggerRunner(MERToolRunner):
+class IxaMedTaggerProcessor(MERToolProcessor):
 
     def __init__(self, config):
         self.__input_formatted_filepath = config['results_dir'] + config['input_formatted_filename']

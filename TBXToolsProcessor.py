@@ -1,12 +1,12 @@
 import time
 from pathlib import Path
 from lib.TBXTools import TBXTools
-from MERToolRunner import MERToolRunner
+from MERToolProcessor import MERToolProcessor
 from TBXToolsMode import TBXToolsMode
 from Brat import Brat
 
 
-class TBXToolsRunner(MERToolRunner):
+class TBXToolsProcessor(MERToolProcessor):
 
     def __init__(self, config):
         self.__tbxtools = TBXTools()

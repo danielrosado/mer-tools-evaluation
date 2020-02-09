@@ -1,8 +1,8 @@
 from pathlib import Path
-from MERToolRunner import MERToolRunner
+from MERToolProcessor import MERToolProcessor
 
 
-class ADR2OpenBratRunner(MERToolRunner):
+class ADR2OpenBratProcessor(MERToolProcessor):
 
     def __init__(self, config):
         self.__output_filepath = Path(config['output_filename'])
