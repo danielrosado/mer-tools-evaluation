@@ -1,9 +1,9 @@
 import time
 from quickumls import QuickUMLS
-from MERToolRunner import MERToolRunner
+from MERToolProcessor import MERToolProcessor
 
 
-class QuickUMLSRunner(MERToolRunner):
+class QuickUMLSProcessor(MERToolProcessor):
 
     def __init__(self, config):
         self.__quickumls = QuickUMLS('/home/daniel/QuickUMLS')
@@ -12,7 +12,7 @@ class QuickUMLSRunner(MERToolRunner):
 
     def process_input(self):
         """Extracts information from input"""
-        input_file = self._input_filepath.open(encoding='utf8')
+        input_file = self.input_filepath.open(encoding='utf8')
         text = input_file.read()
         print('--- QuickUMLS: Processing input ---')
         start_time = time.time()
@@ -42,4 +42,4 @@ class QuickUMLSRunner(MERToolRunner):
                         span.append((span[-1][1] + 1, span[-1][1] + 1 + len(token)))
                 span = map(lambda interval: '{0} {1}'.format(interval[0], interval[1]), span)
                 keyphrase['span'] = ';'.join(span)
-            self._key_phrases.append(keyphrase)
+            self.key_phrases.append(keyphrase)

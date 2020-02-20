@@ -1,8 +1,8 @@
 from pathlib import Path
-from MERToolRunner import MERToolRunner
+from MERToolProcessor import MERToolProcessor
 
 
-class ADR2OpenBratRunner(MERToolRunner):
+class ADR2OpenBratProcessor(MERToolProcessor):
 
     def __init__(self, config):
         self.__output_filepath = Path(config['output_filename'])
@@ -10,7 +10,7 @@ class ADR2OpenBratRunner(MERToolRunner):
 
     def format_output(self):
         """Formats the original output to eHealth-KD subtask A output"""
-        input_file = self._input_filepath.open(encoding='utf-8')
+        input_file = self.input_filepath.open(encoding='utf-8')
         output_file = self.__output_filepath.open(encoding='utf-8')
         input_file_content = input_file.readlines()
         newline_diff = 0
@@ -39,7 +39,7 @@ class ADR2OpenBratRunner(MERToolRunner):
                         span.append((span[-1][1] + 1, span[-1][1] + 1 + len(token)))
                 span = map(lambda interval: '{0} {1}'.format(interval[0], interval[1]), span)
                 key_phrase['span'] = ';'.join(span)
-            self._key_phrases.append(key_phrase)
+            self.key_phrases.append(key_phrase)
 
     @staticmethod
     def __search_line(input_file_content, prev_line, concept):
