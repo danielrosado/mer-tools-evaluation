@@ -2,6 +2,7 @@ import os
 from MERToolProcessorFactory import MERToolProcessorFactory
 from MERToolProcessor import MERToolProcessor
 
+
 if __name__ == '__main__':
     processor_factory = MERToolProcessorFactory('corpus/input_corpus.txt')
     for subclass in MERToolProcessor.__subclasses__():

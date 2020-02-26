@@ -103,5 +103,5 @@ class IxaMedTaggerProcessor(MERToolProcessor):
                 self.key_phrases.append(key_phrase)
         # Format span
         for key_phrase in self.key_phrases:
-            span = map(lambda interval: '{0} {1}'.format(interval[0], interval[1]), key_phrase['span'])
+            span = map(lambda tup: '{0} {1}'.format(tup[0], tup[1]), key_phrase['span'])
             key_phrase['span'] = ';'.join(span)
