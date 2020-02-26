@@ -71,6 +71,6 @@ class TBXToolsProcessor(MERToolProcessor):
         self.key_phrases.sort(key=lambda kp: int(kp['span'][0][0]))  # Order by start
         # Format span and term
         for key_phrase in self.key_phrases:
-            span = map(lambda interval: '{0} {1}'.format(interval[0], interval[1]), key_phrase['span'])
+            span = map(lambda tup: '{0} {1}'.format(tup[0], tup[1]), key_phrase['span'])
             key_phrase['span'] = ';'.join(span)
             key_phrase['term'] = ' '.join(key_phrase['term'])

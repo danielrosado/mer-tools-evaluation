@@ -40,6 +40,6 @@ class QuickUMLSProcessor(MERToolProcessor):
                         span.append((concept['start'], concept['start'] + len(token)))
                     else:
                         span.append((span[-1][1] + 1, span[-1][1] + 1 + len(token)))
-                span = map(lambda interval: '{0} {1}'.format(interval[0], interval[1]), span)
+                span = map(lambda tup: '{0} {1}'.format(tup[0], tup[1]), span)
                 keyphrase['span'] = ';'.join(span)
             self.key_phrases.append(keyphrase)

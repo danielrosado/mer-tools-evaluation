@@ -35,8 +35,6 @@ class MERToolProcessor(ABC):
             output_a_file.write(
                 '{0}\t{1}\t{2}\t{3}\n'.format(i, key_phrase['span'], key_phrase['label'], key_phrase['term']))
 
-    # Getters
-
     @property
     def input_filepath(self):
         return self.__input_filepath
