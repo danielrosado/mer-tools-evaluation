@@ -20,7 +20,7 @@ class TBXToolsProcessor(MERToolProcessor):
         print('--- TBXTools - {}: Processing input ---'.format(self.__mode.value))
         start_time = time.time()
         self.__tbxtools.create_project(self.__results_dir + 'corpus.sqlite', 'spa', overwrite=True)
-        self.__tbxtools.load_sl_corpus(self.input_filepath)
+        self.__tbxtools.load_sl_corpus(self._input_filepath)
         if self.__mode == TBXToolsMode.LINGUISTIC:
             self.__tbxtools.start_freeling_api('es')
             self.__tbxtools.tag_freeling_api()
@@ -41,7 +41,7 @@ class TBXToolsProcessor(MERToolProcessor):
     def format_output(self):
         """Formats the original output to eHealth-KD subtask A output"""
         # Search the extracted concepts in BRAT text in order to get the span
-        brat = Brat.convert_to_brat(self.input_filepath, 'results/brat.txt')
+        brat = Brat.convert_to_brat(self._input_filepath, 'results/brat.txt')
         output_file = self.__output_filepath.open(encoding='utf-8')
         for ln in output_file.readlines():
             ln = ln.split('\t')
@@ -54,7 +54,7 @@ class TBXToolsProcessor(MERToolProcessor):
             while i < len(brat) and j < freq:
                 if k == len(candidate_tokens):  # multiword term found
                     key_phrase['label'] = 'Concept'
-                    self.key_phrases.append(key_phrase)
+                    self._key_phrases.append(key_phrase)
                     key_phrase = {'span': [], 'term': []}
                     j += 1
                     k = 0
@@ -68,9 +68,9 @@ class TBXToolsProcessor(MERToolProcessor):
                             key_phrase = {'span': [], 'term': []}
                             k = 0
                 i += 1
-        self.key_phrases.sort(key=lambda kp: int(kp['span'][0][0]))  # Order by start
+        self._key_phrases.sort(key=lambda kp: int(kp['span'][0][0]))  # Order by start
         # Format span and term
-        for key_phrase in self.key_phrases:
+        for key_phrase in self._key_phrases:
             span = map(lambda tup: '{0} {1}'.format(tup[0], tup[1]), key_phrase['span'])
             key_phrase['span'] = ';'.join(span)
             key_phrase['term'] = ' '.join(key_phrase['term'])

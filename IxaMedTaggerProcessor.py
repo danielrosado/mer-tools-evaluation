@@ -16,7 +16,7 @@ class IxaMedTaggerProcessor(MERToolProcessor):
     def prepare_input(self):
         """Formats the corpus input to the proper tool's input"""
         super().prepare_input()
-        input_file = self.input_filepath.open(encoding='utf-8')
+        input_file = self._input_filepath.open(encoding='utf-8')
         input_formatted_file = Path(self.__input_formatted_filepath).open('w', encoding='utf8')
         for line in input_file.readlines():
             for token in line.split():
@@ -35,7 +35,7 @@ class IxaMedTaggerProcessor(MERToolProcessor):
 
     def format_output(self):
         """Formats the original output to eHealth-KD subtask A output"""
-        brat = Brat.convert_to_brat(self.input_filepath, 'results/brat.txt')
+        brat = Brat.convert_to_brat(self._input_filepath, 'results/brat.txt')
         output_file = self.__output_filepath.open(encoding='utf-8')
         # Assign BRAT span to each token from output
         terms = []
@@ -90,18 +90,18 @@ class IxaMedTaggerProcessor(MERToolProcessor):
         for term in terms:
             if term['tag'] == 'O':
                 continue
-            if self.key_phrases != [] and int(self.key_phrases[-1]['span'][-1][1]) == (int(term['start']) - 1) \
+            if self._key_phrases != [] and int(self._key_phrases[-1]['span'][-1][1]) == (int(term['start']) - 1) \
                     and term['tag'] in multiword_tags:
-                self.key_phrases[-1]['span'].append((term['start'], term['end']))
-                self.key_phrases[-1]['term'] += ' ' + term['token']
+                self._key_phrases[-1]['span'].append((term['start'], term['end']))
+                self._key_phrases[-1]['term'] += ' ' + term['token']
             else:
                 key_phrase = {
                     'span': [(term['start'], term['end'])],
                     'label': 'Concept',
                     'term': term['token'],
                 }
-                self.key_phrases.append(key_phrase)
+                self._key_phrases.append(key_phrase)
         # Format span
-        for key_phrase in self.key_phrases:
+        for key_phrase in self._key_phrases:
             span = map(lambda tup: '{0} {1}'.format(tup[0], tup[1]), key_phrase['span'])
             key_phrase['span'] = ';'.join(span)

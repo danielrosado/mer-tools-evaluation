@@ -10,7 +10,7 @@ class ADR2OpenBratProcessor(MERToolProcessor):
 
     def format_output(self):
         """Formats the original output to eHealth-KD subtask A output"""
-        input_file = self.input_filepath.open(encoding='utf-8')
+        input_file = self._input_filepath.open(encoding='utf-8')
         output_file = self.__output_filepath.open(encoding='utf-8')
         input_file_content = input_file.readlines()
         newline_diff = 0
@@ -39,7 +39,7 @@ class ADR2OpenBratProcessor(MERToolProcessor):
                         span.append((span[-1][1] + 1, span[-1][1] + 1 + len(token)))
                 span = map(lambda tup: '{0} {1}'.format(tup[0], tup[1]), span)
                 key_phrase['span'] = ';'.join(span)
-            self.key_phrases.append(key_phrase)
+            self._key_phrases.append(key_phrase)
 
     @staticmethod
     def __search_line(input_file_content, prev_line, concept):

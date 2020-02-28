@@ -12,7 +12,7 @@ class QuickUMLSProcessor(MERToolProcessor):
 
     def process_input(self):
         """Extracts information from input"""
-        input_file = self.input_filepath.open(encoding='utf8')
+        input_file = self._input_filepath.open(encoding='utf8')
         text = input_file.read()
         print('--- QuickUMLS: Processing input ---')
         start_time = time.time()
@@ -42,4 +42,4 @@ class QuickUMLSProcessor(MERToolProcessor):
                         span.append((span[-1][1] + 1, span[-1][1] + 1 + len(token)))
                 span = map(lambda tup: '{0} {1}'.format(tup[0], tup[1]), span)
                 keyphrase['span'] = ';'.join(span)
-            self.key_phrases.append(keyphrase)
+            self._key_phrases.append(keyphrase)
